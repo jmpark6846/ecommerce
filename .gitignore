@@ -1,0 +1,66 @@
+### OS-Specific Ignore ###
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# macOS
+*.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+
+
+### Editor-Specific Ignore ###
+
+# PyCharm
+.idea/
+
+
+### Project-Specific Ignore ###
+
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+media
+
+# Python
+*.py[cod]
+*$py.class
+venv/
+
+# Custom
+.env
+switch-env
+*_credentials.json
